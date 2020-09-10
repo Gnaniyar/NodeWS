@@ -31,7 +31,7 @@ app.use(function (req, res, next) {
 });
 
 app.get("/", function (req, res) {
-    res.send("Express server response");
+    res.send("Azure server response");
 });
 
 const server = http.createServer(app);
